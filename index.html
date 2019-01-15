@@ -14,10 +14,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.3.92/css/materialdesignicons.min.css">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
         crossorigin="anonymous"></script>
+    <!-- pretty checkbox -->
+    <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
     <!-- jQuery -->
     <script type="text/javascript" src="assets/js/lib/jquery-2.2.4.js"></script>
 </head>
@@ -27,11 +31,24 @@
         <h4 class="heading m-0 p-2 rounded-top">TO DO LIST <i class="fas fa-plus" aria-hidden="true"></i></h4>
         <input type="text" name="addNewList" id="addNewList" placeholder="Add new item">
         <ul class=" m-0 rounded" id=#listHeader>
-            <li class="lists"><span class="iconSpan"><i class="far fa-trash-alt fa-xs listDelete" aria-hidden="true"></i></span><span class="checkboxSpan"><input type="checkbox" name="checkboxDone" class="doneCheck"></span> List</li>
-            <li class="lists"><span class="iconSpan"><i class="far fa-trash-alt fa-xs listDelete" aria-hidden="true"></i></span><span class="checkboxSpan"><input type="checkbox" name="checkboxDone" class="doneCheck"></span> List</li>
-            <li class="lists"><span class="iconSpan"><i class="far fa-trash-alt fa-xs listDelete" aria-hidden="true"></i></span><span class="checkboxSpan"><input type="checkbox" name="checkboxDone" class="doneCheck"></span> List</li>
+            <li class="lists">
+                <!-- Example list -->
+                <!-- <span class="iconSpan">
+                    <i class="far fa-trash-alt fa-xs listDelete" aria-hidden="true"></i>
+                </span>
+                <span class="pretty p-icon p-curve p-pulse">
+                    <input type="checkbox" class="doneCheck">
+                    <span class="state p-success">
+                        <i class="icon mdi mdi-check"></i>
+                        <label>Allow</label>
+                    </span>
+                </span> -->
+            </li>
         </ul>
     </div>
+
+    <!-- Pretty Checkbox -->
+
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="assets/js/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
