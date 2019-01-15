@@ -1,0 +1,98 @@
+body {
+    font-family: Poppins !important;
+    font-size: 14px;
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fa-plus {
+    float: right;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#container {
+    background-color: #ECF0F1;
+    width: 20%;
+    height: 40%;
+    margin: 2% auto;
+    /* border: 1px solid #000; */
+}
+
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.lists {
+    background-color: #D2D7D3;
+    line-height: 28px;
+
+}
+
+.lists:nth-child(2n) {
+    background-color: #ECF0F1;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #044F67;
+}
+
+#addNewList {
+    background-color: #ECF0F1;
+    padding: 4px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(0, 0, 0, 0);
+    /* box-sizing: border-box; */
+}
+
+#addNewList:focus {
+    background-color: #fff;
+    font-weight: normal;
+    color: #044F67;
+    border: 2px solid #044F67;
+
+}
+
+
+.listDelete {
+    color: white;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #264348;
+}
+
+.iconSpan {
+    width: 0;
+    text-align: center;
+    margin: 0px 7px 0px 0px;
+    background-color: red;
+    /* height: 40px; */
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+
+}
+
+li:hover .iconSpan {
+    width: 10%;
+    opacity: 1.0;
+}
+
+
+
+/* Check box design */
